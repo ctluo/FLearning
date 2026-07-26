@@ -1,7 +1,6 @@
 import XLSX
 using Base: run
 using Dates
-using SymbolicRegression
 using SymbolicUtils
 using Statistics
 using Base64
