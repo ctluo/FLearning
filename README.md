@@ -2,6 +2,8 @@
 
 This repository provides scripts for discovering compact, interpretable governing equations from experimental or simulation data. **Functional Learning (FL)** is the primary method: a symbolic regression framework that constrains the search space through a **physics-informed gene pool**, encouraging expressions that remain consistent with known physical structure while still fitting the data.
 
+![Graphical Abstract](./Graphical_Abstract.svg)
+
 Two widely used baselines—**PySR** and **gplearn**—are included for comparison on the same datasets and evaluation metrics.
 
 ## Overview
