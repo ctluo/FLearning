@@ -1,0 +1,1418 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1600"
+   height="640"
+   viewBox="0 0 1600 640"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg871"
+   sodipodi:docname="Graphical_Abstract.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview873"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.831875"
+     inkscape:cx="800"
+     inkscape:cy="320.36063"
+     inkscape:window-width="1500"
+     inkscape:window-height="930"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg871" />
+  <title
+     id="title">Functional Learning with a Physics-Informed Gene Pool</title>
+  <desc
+     id="desc">A left-to-right workflow showing physical knowledge and scarce data entering a typed gene pool, gene-pool-guided evolution, feasible-first physical screening, and compact analytical models for aerodynamic force, moment, and aeroheating.</desc>
+  <defs
+     id="defs493">
+    <linearGradient
+       id="headerGrad"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0">
+      <stop
+         offset="0"
+         stop-color="#12355B"
+         id="stop444" />
+      <stop
+         offset="0.55"
+         stop-color="#1F5F99"
+         id="stop446" />
+      <stop
+         offset="1"
+         stop-color="#0B7A75"
+         id="stop448" />
+    </linearGradient>
+    <linearGradient
+       id="poolGrad"
+       x1="342.22385"
+       y1="275.63538"
+       x2="342.22385"
+       y2="453.62414"
+       gradientTransform="scale(1.2360331,0.80903983)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#2F80ED"
+         id="stop451" />
+      <stop
+         offset="1"
+         stop-color="#1B5CB8"
+         id="stop453" />
+    </linearGradient>
+    <linearGradient
+       id="resultGrad"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#E9F8F5"
+         id="stop456" />
+      <stop
+         offset="1"
+         stop-color="#DDF1FA"
+         id="stop458" />
+    </linearGradient>
+    <filter
+       id="shadow"
+       x="-0.073033708"
+       y="-0.037356322"
+       width="1.1460674"
+       height="1.0890805">
+      <feGaussianBlur
+         in="SourceAlpha"
+         stdDeviation="5"
+         result="blur"
+         id="feGaussianBlur461" />
+      <feOffset
+         in="blur"
+         dx="0"
+         dy="5"
+         result="offsetBlur"
+         id="feOffset463" />
+      <feFlood
+         flood-color="#12355B"
+         flood-opacity="0.14"
+         result="shadowColor"
+         id="feFlood465" />
+      <feComposite
+         in="shadowColor"
+         in2="offsetBlur"
+         operator="in"
+         result="shadowBlur"
+         id="feComposite467" />
+      <feMerge
+         id="feMerge473">
+        <feMergeNode
+           in="shadowBlur"
+           id="feMergeNode469" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode471" />
+      </feMerge>
+    </filter>
+    <marker
+       id="arrow"
+       markerWidth="12"
+       markerHeight="12"
+       refX="10"
+       refY="6"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M0,0 L12,6 L0,12 Z"
+         fill="#3174A8"
+         id="path476" />
+    </marker>
+    <marker
+       id="arrowTeal"
+       markerWidth="12"
+       markerHeight="12"
+       refX="10"
+       refY="6"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M0,0 L12,6 L0,12 Z"
+         fill="#0B8F83"
+         id="path479" />
+    </marker>
+    <marker
+       id="arrowPurple"
+       markerWidth="18"
+       markerHeight="18"
+       refX="15"
+       refY="9"
+       orient="auto"
+       markerUnits="userSpaceOnUse">
+      <path
+         d="M1,1 L17,9 L1,17 Z"
+         fill="#7B61B3"
+         id="path482" />
+    </marker>
+    <marker
+       id="loopPurple"
+       markerWidth="14"
+       markerHeight="14"
+       refX="12"
+       refY="7"
+       orient="auto"
+       markerUnits="userSpaceOnUse">
+      <path
+         d="M1,1 L13,7 L1,13 Z"
+         fill="#7B61B3"
+         id="path485" />
+    </marker>
+    <marker
+       id="loopAmber"
+       markerWidth="14"
+       markerHeight="14"
+       refX="12"
+       refY="7"
+       orient="auto"
+       markerUnits="userSpaceOnUse">
+      <path
+         d="M1,1 L13,7 L1,13 Z"
+         fill="#E59A23"
+         id="path488" />
+    </marker>
+    <style
+       id="style491">
+      .title { font: 700 39px Arial, Helvetica, sans-serif; fill: #FFFFFF; letter-spacing: 0.2px; }
+      .subtitle { font: 400 21px Arial, Helvetica, sans-serif; fill: #DCEAF5; }
+      .stage { font: 700 21px Arial, Helvetica, sans-serif; fill: #12355B; letter-spacing: 0.5px; }
+      .label { font: 700 18px Arial, Helvetica, sans-serif; fill: #163A5F; }
+      .body { font: 400 17px Arial, Helvetica, sans-serif; fill: #35546F; }
+      .small { font: 600 15px Arial, Helvetica, sans-serif; fill: #35546F; }
+      .tiny { font: 600 13px Arial, Helvetica, sans-serif; fill: #49677F; }
+      .white { fill: #FFFFFF; }
+      .chip { font: 600 12.5px Arial, Helvetica, sans-serif; fill: #164F85; }
+      .num { font: 700 15px Arial, Helvetica, sans-serif; fill: #FFFFFF; }
+    </style>
+  </defs>
+  <!-- Background and title band -->
+  <rect
+     width="1600"
+     height="640"
+     fill="#f5f8fc"
+     id="rect495"
+     x="-10"
+     y="0" />
+  <rect
+     width="1600"
+     height="104"
+     fill="url(#headerGrad)"
+     id="rect497" />
+  <text
+     x="800"
+     y="48"
+     text-anchor="middle"
+     class="title"
+     id="text499">Functional Learning with a Physics-Informed Gene Pool</text>
+  <text
+     x="800"
+     y="80"
+     text-anchor="middle"
+     class="subtitle"
+     id="text501">Physics-consistent symbolic regression for scarce, heterogeneous engineering data</text>
+  <!-- Stage numbers -->
+  <g
+     id="g533">
+    <circle
+       cx="72"
+       cy="135"
+       r="17"
+       fill="#3174A8"
+       id="circle503" />
+    <text
+       x="72"
+       y="140"
+       text-anchor="middle"
+       class="num"
+       id="text505">1</text>
+    <text
+       x="101"
+       y="142"
+       class="stage"
+       id="text507">KNOWLEDGE + DATA</text>
+    <circle
+       cx="397"
+       cy="135"
+       r="17"
+       fill="#3174A8"
+       id="circle509" />
+    <text
+       x="397"
+       y="140"
+       text-anchor="middle"
+       class="num"
+       id="text511">2</text>
+    <text
+       x="426"
+       y="142"
+       class="stage"
+       id="text513">TYPED GENE POOL</text>
+    <circle
+       cx="751"
+       cy="135"
+       r="17"
+       fill="#7B61B3"
+       id="circle515" />
+    <text
+       x="751"
+       y="140"
+       text-anchor="middle"
+       class="num"
+       id="text517">3</text>
+    <text
+       x="780"
+       y="142"
+       class="stage"
+       id="text519">GUIDED EVOLUTION</text>
+    <circle
+       cx="1118"
+       cy="135"
+       r="17"
+       fill="#E59A23"
+       id="circle521" />
+    <text
+       x="1118"
+       y="140"
+       text-anchor="middle"
+       class="num"
+       id="text523">4</text>
+    <text
+       x="1147"
+       y="142"
+       class="stage"
+       id="text525">PHYSICAL SCREEN</text>
+    <circle
+       cx="1391"
+       cy="135"
+       r="17"
+       fill="#0B8F83"
+       id="circle527" />
+    <text
+       x="1391"
+       y="140"
+       text-anchor="middle"
+       class="num"
+       id="text529">5</text>
+    <text
+       x="1420"
+       y="142"
+       class="stage"
+       id="text531">OUTPUT</text>
+  </g>
+  <!-- Stage 1: knowledge and data -->
+  <g
+     filter="url(#shadow)"
+     id="g537">
+    <rect
+       x="40"
+       y="166"
+       width="280"
+       height="348"
+       rx="24"
+       fill="#FFFFFF"
+       stroke="#C8D9E8"
+       stroke-width="2"
+       id="rect535" />
+  </g>
+  <g
+     id="g593">
+    <!-- Theory card -->
+    <rect
+       x="60"
+       y="190"
+       width="240"
+       height="72"
+       rx="14"
+       fill="#EAF3FD"
+       id="rect539" />
+    <circle
+       cx="92"
+       cy="226"
+       r="20"
+       fill="#3174A8"
+       id="circle541" />
+    <path
+       d="M82 226h20M92 216v20M84 218l16 16M100 218l-16 16"
+       stroke="#FFFFFF"
+       stroke-width="2.2"
+       stroke-linecap="round"
+       id="path543" />
+    <text
+       x="124"
+       y="220"
+       class="label"
+       id="text545">Theory</text>
+    <text
+       x="124"
+       y="244"
+       class="body"
+       id="text547">Physical relations</text>
+    <!-- Empirical card -->
+    <rect
+       x="60"
+       y="276"
+       width="240"
+       height="72"
+       rx="14"
+       fill="#FFF2DE"
+       id="rect549" />
+    <circle
+       cx="92"
+       cy="312"
+       r="20"
+       fill="#E59A23"
+       id="circle551" />
+    <path
+       d="M80 321l8-9 7 4 10-14"
+       fill="none"
+       stroke="#FFFFFF"
+       stroke-width="3"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path553" />
+    <circle
+       cx="80"
+       cy="321"
+       r="2.4"
+       fill="#FFFFFF"
+       id="circle555" />
+    <circle
+       cx="88"
+       cy="312"
+       r="2.4"
+       fill="#FFFFFF"
+       id="circle557" />
+    <circle
+       cx="95"
+       cy="316"
+       r="2.4"
+       fill="#FFFFFF"
+       id="circle559" />
+    <circle
+       cx="105"
+       cy="302"
+       r="2.4"
+       fill="#FFFFFF"
+       id="circle561" />
+    <text
+       x="120"
+       y="306"
+       class="label"
+       id="text563">Empirical</text>
+    <text
+       x="120"
+       y="330"
+       class="small"
+       id="text565">Engineering correlations</text>
+    <!-- Similarity card -->
+    <rect
+       x="60"
+       y="362"
+       width="240"
+       height="72"
+       rx="14"
+       fill="#E8F8F5"
+       id="rect567" />
+    <circle
+       cx="92"
+       cy="398"
+       r="20"
+       fill="#0B8F83"
+       id="circle569" />
+    <text
+       x="92"
+       y="405"
+       text-anchor="middle"
+       style="font:700 22px Arial;fill:#FFFFFF"
+       id="text571">Π</text>
+    <text
+       x="124"
+       y="392"
+       class="label"
+       id="text573">Similarity</text>
+    <text
+       x="124"
+       y="416"
+       class="body"
+       id="text575">Dimensionless groups</text>
+    <!-- Data pill -->
+    <rect
+       x="60"
+       y="446"
+       width="240"
+       height="50"
+       rx="20"
+       fill="#F0EAF9"
+       stroke="#CBB9E7"
+       id="rect577" />
+    <g
+       transform="translate(77,459)"
+       id="g587">
+      <circle
+         cx="5"
+         cy="8"
+         r="3"
+         fill="#7B61B3"
+         id="circle579" />
+      <circle
+         cx="17"
+         cy="3"
+         r="3"
+         fill="#7B61B3"
+         id="circle581" />
+      <circle
+         cx="28"
+         cy="14"
+         r="3"
+         fill="#7B61B3"
+         id="circle583" />
+      <path
+         d="M5 8L17 3L28 14"
+         fill="none"
+         stroke="#7B61B3"
+         stroke-width="2"
+         id="path585" />
+    </g>
+    <text
+       x="122"
+       y="466"
+       class="tiny"
+       id="text589">Scarce &amp; heterogeneous</text>
+    <text
+       x="122"
+       y="485"
+       class="tiny"
+       id="text591">engineering data</text>
+  </g>
+  <!-- Arrow 1 -->
+  <path
+     d="M326 340H357"
+     stroke="#3174A8"
+     stroke-width="5"
+     stroke-linecap="round"
+     marker-end="url(#arrow)"
+     id="path595" />
+  <!-- Stage 2: gene pool -->
+  <g
+     filter="url(#shadow)"
+     id="g599">
+    <rect
+       x="372"
+       y="166"
+       width="322"
+       height="348"
+       rx="24"
+       fill="#FFFFFF"
+       stroke="#BFD5E9"
+       stroke-width="2"
+       id="rect597" />
+  </g>
+  <ellipse
+     cx="533"
+     cy="223"
+     rx="110"
+     ry="35"
+     fill="#5ca2f4"
+     id="ellipse601" />
+  <rect
+     x="423"
+     y="223"
+     width="220"
+     height="144"
+     fill="url(#poolGrad)"
+     id="rect603"
+     style="fill:url(#poolGrad)" />
+  <ellipse
+     cx="533"
+     cy="362.19159"
+     rx="110"
+     ry="30.191586"
+     fill="#1b5cb8"
+     id="ellipse605"
+     style="stroke-width:0.928772" />
+  <ellipse
+     cx="533"
+     cy="223"
+     rx="110"
+     ry="35"
+     fill="none"
+     stroke="#b9daff"
+     stroke-width="2"
+     id="ellipse607" />
+  <path
+     d="m 423,269 c 0,19 49,35 110,35 61,0 110,-16 110,-35 m -220,50 c 0,19 49,35 110,35 61,0 110,-16 110,-35"
+     fill="none"
+     stroke="#9fc8f8"
+     stroke-width="2"
+     opacity="0.75"
+     id="path609" />
+  <text
+     x="533"
+     y="252"
+     text-anchor="middle"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:20px;line-height:normal;font-family:Arial;fill:#ffffff"
+     id="text611">PHYSICS-INFORMED</text>
+  <text
+     x="533"
+     y="277"
+     text-anchor="middle"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:20px;line-height:normal;font-family:Arial;fill:#ffffff"
+     id="text613">GENE POOL</text>
+  <g
+     transform="translate(438,308)"
+     id="g627">
+    <rect
+       x="0"
+       y="0"
+       width="46"
+       height="30"
+       rx="6"
+       fill="#ffffff"
+       opacity="0.95"
+       id="rect615"
+       ry="6" />
+    <text
+       x="23"
+       y="20"
+       text-anchor="middle"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial;fill:#1b5cb8"
+       id="text617">M²</text>
+    <rect
+       x="55"
+       y="0"
+       width="72"
+       height="30"
+       rx="6"
+       fill="#ffffff"
+       opacity="0.95"
+       id="rect619"
+       ry="6" />
+    <text
+       x="91"
+       y="20"
+       text-anchor="middle"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial;fill:#1b5cb8"
+       id="text621">√R</text>
+    <rect
+       x="136"
+       y="0"
+       width="54"
+       height="30"
+       rx="6"
+       fill="#ffffff"
+       opacity="0.95"
+       id="rect623"
+       ry="6" />
+    <text
+       x="163"
+       y="20"
+       text-anchor="middle"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial;fill:#1b5cb8"
+       id="text625">Re</text>
+  </g>
+  <text
+     x="533"
+     y="409"
+     text-anchor="middle"
+     class="label"
+     id="text629"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Reusable function blocks</text>
+  <text
+     x="533"
+     y="435"
+     text-anchor="middle"
+     class="body"
+     id="text631"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:17px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Parse matrices + metadata</text>
+  <g
+     id="g653">
+    <rect
+       x="397"
+       y="454"
+       width="77"
+       height="27"
+       rx="13.5"
+       fill="#eaf3fd"
+       id="rect633" />
+    <text
+       x="435.5"
+       y="472"
+       text-anchor="middle"
+       class="chip"
+       id="text635"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:12.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif">dimension</text>
+    <rect
+       x="480"
+       y="454"
+       width="75"
+       height="27"
+       rx="13.5"
+       fill="#eaf3fd"
+       id="rect637" />
+    <text
+       x="517.5"
+       y="472"
+       text-anchor="middle"
+       class="chip"
+       id="text639"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:12.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif">symmetry</text>
+    <rect
+       x="561"
+       y="454"
+       width="61"
+       height="27"
+       rx="13.5"
+       fill="#eaf3fd"
+       id="rect641" />
+    <text
+       x="591.5"
+       y="472"
+       text-anchor="middle"
+       class="chip"
+       id="text643"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:12.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif">domain</text>
+    <rect
+       x="425"
+       y="486"
+       width="88"
+       height="27"
+       rx="13.5"
+       fill="#eaf3fd"
+       id="rect645" />
+    <text
+       x="469"
+       y="504"
+       text-anchor="middle"
+       class="chip"
+       id="text647"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:12.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif">complexity</text>
+    <rect
+       x="520"
+       y="486"
+       width="88"
+       height="27"
+       rx="13.5"
+       fill="#eaf3fd"
+       id="rect649" />
+    <text
+       x="564"
+       y="504"
+       text-anchor="middle"
+       class="chip"
+       id="text651"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:12.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif">provenance</text>
+  </g>
+  <!-- Arrow 2 -->
+  <path
+     d="M700 340H728"
+     stroke="#3174A8"
+     stroke-width="5"
+     stroke-linecap="round"
+     marker-end="url(#arrow)"
+     id="path657" />
+  <!-- Stage 3: guided evolution -->
+  <g
+     filter="url(#shadow)"
+     id="g661">
+    <rect
+       x="742"
+       y="166"
+       width="304"
+       height="348"
+       rx="24"
+       fill="#FFFFFF"
+       stroke="#D3C9E6"
+       stroke-width="2"
+       id="rect659" />
+  </g>
+  <ellipse
+     cx="892.45917"
+     cy="300.65475"
+     fill="#f5f1fb"
+     stroke="#d6c9ea"
+     stroke-width="2.3247"
+     id="circle663"
+     rx="111.86944"
+     ry="111.30246" />
+  <path
+     d="M 820.21012,242.6847 A 90.893924,90.433247 0 0 1 963.54285,232.2501"
+     fill="none"
+     stroke="#7b61b3"
+     stroke-width="9.2988"
+     stroke-linecap="round"
+     marker-end="url(#arrowPurple)"
+     id="path665" />
+  <path
+     d="m 967.03877,356.30597 a 90.893924,90.433247 0 0 1 -146.82865,5.797"
+     fill="none"
+     stroke="#7b61b3"
+     stroke-width="9.2988"
+     stroke-linecap="round"
+     marker-end="url(#arrowPurple)"
+     id="path667" />
+  <text
+     x="842"
+     y="246"
+     text-anchor="middle"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial;fill:#5f4a88"
+     id="text669">A</text>
+  <rect
+     x="813"
+     y="252"
+     width="58"
+     height="47"
+     rx="5"
+     fill="#ffffff"
+     stroke="#7b61b3"
+     stroke-width="2"
+     id="rect671" />
+  <path
+     d="m 832.3,252 v 47 m 19.4,-47 v 47 M 813,267.7 h 58 m -58,15.6 h 58"
+     stroke="#bdafdc"
+     stroke-width="1.2"
+     id="path673" />
+  <rect
+     x="814.5"
+     y="253.5"
+     width="16.299999"
+     height="12.7"
+     rx="2"
+     fill="#7b61b3"
+     id="rect675" />
+  <rect
+     x="833.79999"
+     y="269.20001"
+     width="16.299999"
+     height="12.6"
+     rx="2"
+     fill="#3174a8"
+     id="rect677" />
+  <rect
+     x="853.20001"
+     y="284.79999"
+     width="16.299999"
+     height="12.7"
+     rx="2"
+     fill="#0b8f83"
+     id="rect679" />
+  <text
+     x="946"
+     y="246"
+     text-anchor="middle"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial;fill:#5f4a88"
+     id="text681">B</text>
+  <rect
+     x="917"
+     y="252"
+     width="58"
+     height="47"
+     rx="5"
+     fill="#ffffff"
+     stroke="#7b61b3"
+     stroke-width="2"
+     id="rect683" />
+  <path
+     d="m 936.3,252 v 47 m 19.4,-47 v 47 M 917,267.7 h 58 m -58,15.6 h 58"
+     stroke="#bdafdc"
+     stroke-width="1.2"
+     id="path685" />
+  <rect
+     x="937.79999"
+     y="253.5"
+     width="16.299999"
+     height="12.7"
+     rx="2"
+     fill="#e59a23"
+     id="rect687" />
+  <rect
+     x="918.5"
+     y="269.20001"
+     width="16.299999"
+     height="12.6"
+     rx="2"
+     fill="#0b8f83"
+     id="rect689" />
+  <rect
+     x="956.20001"
+     y="284.79999"
+     width="17.299999"
+     height="12.7"
+     rx="2"
+     fill="#3174a8"
+     id="rect691" />
+  <path
+     d="m 863,303 c 7,9 16,13 24,16 m 38,-16 c -7,9 -16,13 -24,16"
+     fill="none"
+     stroke="#7b61b3"
+     stroke-width="3"
+     stroke-linecap="round"
+     id="path693" />
+  <circle
+     cx="894"
+     cy="319"
+     r="13"
+     fill="#7b61b3"
+     id="circle695" />
+  <path
+     d="m 888,313 12,12 m 0,-12 -12,12"
+     stroke="#ffffff"
+     stroke-width="2.5"
+     stroke-linecap="round"
+     id="path697" />
+  <path
+     d="m 894,333 v 7"
+     stroke="#7b61b3"
+     stroke-width="3"
+     stroke-linecap="round"
+     id="path699" />
+  <rect
+     x="854"
+     y="342"
+     width="80"
+     height="49"
+     rx="6"
+     fill="#ffffff"
+     stroke="#3174a8"
+     stroke-width="2.2"
+     id="rect701" />
+  <path
+     d="m 874,342 v 49 m 20,-49 v 49 m 20,-49 v 49 m -60,-32.7 h 80 m -80,16.4 h 80"
+     stroke="#b6cde2"
+     stroke-width="1.2"
+     id="path703" />
+  <rect
+     x="855.5"
+     y="343.5"
+     width="17"
+     height="13.3"
+     rx="2"
+     fill="#7b61b3"
+     id="rect705" />
+  <rect
+     x="875.5"
+     y="343.5"
+     width="17"
+     height="13.3"
+     rx="2"
+     fill="#3174a8"
+     id="rect707" />
+  <rect
+     x="895.5"
+     y="360"
+     width="17"
+     height="13.2"
+     rx="2"
+     fill="#0b8f83"
+     id="rect709" />
+  <rect
+     x="915.5"
+     y="376.20001"
+     width="17"
+     height="13.3"
+     rx="2"
+     fill="#e59a23"
+     stroke="#c77900"
+     stroke-width="1.5"
+     id="rect711" />
+  <text
+     x="894"
+     y="428"
+     text-anchor="middle"
+     class="label"
+     id="text719"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Gene-pool-guided operators</text>
+  <g
+     id="g737">
+    <rect
+       x="771"
+       y="447"
+       width="54"
+       height="30"
+       rx="15"
+       fill="#f0eaf9"
+       id="rect721" />
+    <text
+       x="798"
+       y="467"
+       text-anchor="middle"
+       class="tiny"
+       id="text723"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif">seed</text>
+    <rect
+       x="832"
+       y="447"
+       width="71"
+       height="30"
+       rx="15"
+       fill="#f0eaf9"
+       id="rect725" />
+    <text
+       x="867.5"
+       y="467"
+       text-anchor="middle"
+       class="tiny"
+       id="text727"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif">crossover</text>
+    <rect
+       x="910"
+       y="447"
+       width="69"
+       height="30"
+       rx="15"
+       fill="#f0eaf9"
+       id="rect729" />
+    <text
+       x="944.5"
+       y="467"
+       text-anchor="middle"
+       class="tiny"
+       id="text731"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif">mutation</text>
+    <rect
+       x="811"
+       y="479"
+       width="166"
+       height="30"
+       rx="15"
+       fill="#f0eaf9"
+       id="rect733" />
+    <text
+       x="894"
+       y="499"
+       text-anchor="middle"
+       class="tiny"
+       id="text735"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif">dimensional assembly</text>
+  </g>
+  <!-- Bidirectional feedback loop between evolution and physical screening -->
+  <path
+     d="M1048 326C1060 309 1082 309 1096 326"
+     fill="none"
+     stroke="#E59A23"
+     stroke-width="4"
+     stroke-linecap="round"
+     marker-end="url(#loopAmber)"
+     id="path741" />
+  <path
+     d="M1096 354C1082 371 1060 371 1048 354"
+     fill="none"
+     stroke="#7B61B3"
+     stroke-width="4"
+     stroke-linecap="round"
+     marker-end="url(#loopPurple)"
+     id="path743" />
+  <!-- Stage 4: physical screen -->
+  <g
+     filter="url(#shadow)"
+     id="g747">
+    <rect
+       x="1100"
+       y="166"
+       width="250"
+       height="348"
+       rx="24"
+       fill="#FFFFFF"
+       stroke="#ECD4A7"
+       stroke-width="2"
+       id="rect745" />
+  </g>
+  <path
+     d="m 1140,194 h 170 l -55,65 v 35 l -30,19 -30,-19 v -35 z"
+     fill="#fff2de"
+     stroke="#e59a23"
+     stroke-width="3"
+     stroke-linejoin="round"
+     id="path749" />
+  <path
+     d="m 1163,213 h 124 m -111,22 h 98"
+     stroke="#e59a23"
+     stroke-width="3"
+     stroke-linecap="round"
+     opacity="0.75"
+     id="path751" />
+  <circle
+     cx="1225"
+     cy="275"
+     r="16"
+     fill="#0b8f83"
+     id="circle753" />
+  <path
+     d="m 1217,275 6,6 11,-13"
+     fill="none"
+     stroke="#ffffff"
+     stroke-width="3.2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path755" />
+  <text
+     x="1221"
+     y="339"
+     text-anchor="middle"
+     class="label"
+     id="text757"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Feasible-first selection</text>
+  <g
+     id="g799">
+    <rect
+       x="1116"
+       y="355"
+       width="100"
+       height="30"
+       rx="15"
+       fill="#e8f8f5"
+       id="rect759" />
+    <circle
+       cx="1131"
+       cy="370"
+       r="8"
+       fill="#0b8f83"
+       id="circle761" />
+    <path
+       d="m 1127,370 3,3 6,-7"
+       fill="none"
+       stroke="#ffffff"
+       stroke-width="1.8"
+       id="path763" />
+    <text
+       x="1144"
+       y="375"
+       class="tiny"
+       id="text765"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Dimension</text>
+    <rect
+       x="1222"
+       y="355"
+       width="110"
+       height="30"
+       rx="15"
+       fill="#e8f8f5"
+       id="rect767" />
+    <circle
+       cx="1237"
+       cy="370"
+       r="8"
+       fill="#0b8f83"
+       id="circle769" />
+    <path
+       d="m 1233,370 3,3 6,-7"
+       fill="none"
+       stroke="#ffffff"
+       stroke-width="1.8"
+       id="path771" />
+    <text
+       x="1250"
+       y="375"
+       class="tiny"
+       id="text773"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Symmetry</text>
+    <rect
+       x="1116"
+       y="391"
+       width="92"
+       height="30"
+       rx="15"
+       fill="#e8f8f5"
+       id="rect775" />
+    <circle
+       cx="1131"
+       cy="406"
+       r="8"
+       fill="#0b8f83"
+       id="circle777" />
+    <path
+       d="m 1127,406 3,3 6,-7"
+       fill="none"
+       stroke="#ffffff"
+       stroke-width="1.8"
+       id="path779" />
+    <text
+       x="1144"
+       y="411"
+       class="tiny"
+       id="text781"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Domain</text>
+    <rect
+       x="1214"
+       y="391"
+       width="118"
+       height="30"
+       rx="15"
+       fill="#e8f8f5"
+       id="rect783" />
+    <circle
+       cx="1229"
+       cy="406"
+       r="8"
+       fill="#0b8f83"
+       id="circle785" />
+    <path
+       d="m 1225,406 3,3 6,-7"
+       fill="none"
+       stroke="#ffffff"
+       stroke-width="1.8"
+       id="path787" />
+    <text
+       x="1242"
+       y="411"
+       class="tiny"
+       id="text789"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Smoothness</text>
+    <rect
+       x="1167"
+       y="427"
+       width="116"
+       height="30"
+       rx="15"
+       fill="#e8f8f5"
+       id="rect791" />
+    <circle
+       cx="1182"
+       cy="442"
+       r="8"
+       fill="#0b8f83"
+       id="circle793" />
+    <path
+       d="m 1178,442 3,3 6,-7"
+       fill="none"
+       stroke="#ffffff"
+       stroke-width="1.8"
+       id="path795" />
+    <text
+       x="1195"
+       y="447"
+       class="tiny"
+       id="text797"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Asymptotics</text>
+  </g>
+  <rect
+     x="1125"
+     y="472"
+     width="200"
+     height="38"
+     rx="19"
+     fill="#fff2de"
+     stroke="#e7b861"
+     id="rect801" />
+  <text
+     x="1225"
+     y="496"
+     text-anchor="middle"
+     class="small"
+     id="text803"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Error ↔ complexity</text>
+  <!-- Arrow 4 -->
+  <path
+     d="M1356 340H1370"
+     stroke="#0B8F83"
+     stroke-width="5"
+     stroke-linecap="round"
+     marker-end="url(#arrowTeal)"
+     id="path807" />
+  <!-- Stage 5: outputs -->
+  <g
+     filter="url(#shadow)"
+     id="g811">
+    <rect
+       x="1382"
+       y="166"
+       width="178"
+       height="348"
+       rx="24"
+       fill="url(#resultGrad)"
+       stroke="#9CD6CE"
+       stroke-width="2"
+       id="rect809" />
+  </g>
+  <text
+     x="1471"
+     y="204"
+     text-anchor="middle"
+     class="label"
+     id="text813"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Compact formula</text>
+  <rect
+     x="1402"
+     y="220"
+     width="138"
+     height="54"
+     rx="13"
+     fill="#ffffff"
+     stroke="#a7d7d1"
+     id="rect815" />
+  <text
+     x="1471"
+     y="254"
+     text-anchor="middle"
+     style="font-style:italic;font-variant:normal;font-weight:700;font-stretch:normal;font-size:22px;line-height:normal;font-family:Georgia, serif;fill:#0b706a"
+     id="text817">f*(x; θ)</text>
+  <rect
+     x="1402"
+     y="292"
+     width="138"
+     height="72"
+     rx="14"
+     fill="#ffffff"
+     id="rect819" />
+  <g
+     transform="translate(1405,305)"
+     id="g825">
+    <path
+       d="M 2,24 54,6 46,22 63,27 47,31 55,47 Z"
+       fill="#3174a8"
+       id="path821" />
+    <path
+       d="M 9,25 H 53"
+       stroke="#ffffff"
+       stroke-width="2"
+       opacity="0.8"
+       id="path823" />
+  </g>
+  <text
+     x="1467"
+     y="321"
+     class="small"
+     id="text827"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Force</text>
+  <text
+     x="1467"
+     y="344"
+     class="small"
+     id="text829"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif">+ moment</text>
+  <rect
+     x="1402"
+     y="376"
+     width="138"
+     height="72"
+     rx="14"
+     fill="#ffffff"
+     id="rect831" />
+  <g
+     transform="translate(1418,385)"
+     id="g837">
+    <path
+       d="M 23,3 C 10,17 8,32 23,51 38,32 36,17 23,3 Z"
+       fill="#e76f51"
+       id="path833" />
+    <path
+       d="m 23,13 c -6,10 -6,20 0,28 6,-8 6,-18 0,-28 z"
+       fill="#ffd166"
+       id="path835" />
+  </g>
+  <text
+     x="1473"
+     y="407"
+     class="small"
+     id="text839"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Aero-</text>
+  <text
+     x="1473"
+     y="430"
+     class="small"
+     id="text841"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif">heating</text>
+  <text
+     x="1471"
+     y="479"
+     text-anchor="middle"
+     class="small"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif;fill:#0b706a"
+     id="text843">Strong held-out</text>
+  <text
+     x="1471"
+     y="501"
+     text-anchor="middle"
+     class="small"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif;fill:#0b706a"
+     id="text845">test accuracy</text>
+  <!-- Outcome ribbon -->
+  <rect
+     x="40"
+     y="548"
+     width="1520"
+     height="62"
+     rx="31"
+     fill="#12355B"
+     id="rect849" />
+  <g
+     transform="translate(253,579)"
+     id="g869">
+    <circle
+       cx="0"
+       cy="0"
+       r="14"
+       fill="#35B7A7"
+       id="circle851" />
+    <path
+       d="M-6 0l4 5 9-11"
+       fill="none"
+       stroke="#FFF"
+       stroke-width="3"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path853" />
+    <text
+       x="26"
+       y="7"
+       style="font:700 21px Arial;fill:#FFFFFF"
+       id="text855">Interpretable</text>
+    <circle
+       cx="350"
+       cy="0"
+       r="14"
+       fill="#35B7A7"
+       id="circle857" />
+    <path
+       d="M344 0l4 5 9-11"
+       fill="none"
+       stroke="#FFF"
+       stroke-width="3"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path859" />
+    <text
+       x="376"
+       y="7"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:21px;line-height:normal;font-family:Arial;fill:#ffffff"
+       id="text861">Physically admissible</text>
+    <circle
+       cx="790"
+       cy="0"
+       r="14"
+       fill="#35B7A7"
+       id="circle863" />
+    <path
+       d="M784 0l4 5 9-11"
+       fill="none"
+       stroke="#FFF"
+       stroke-width="3"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path865" />
+    <text
+       x="816"
+       y="7"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:21px;line-height:normal;font-family:Arial;fill:#ffffff"
+       id="text867">Highly generalizable</text>
+  </g>
+</svg>
