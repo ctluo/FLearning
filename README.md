@@ -77,7 +77,7 @@ FL runs multiple rounds of symbolic search and writes the best formulas and metr
 julia FLearning_test.jl
 ```
 
-**Requirements:** Julia packages `XLSX`, `SymbolicRegression`, `SymbolicUtils`, `Statistics`, and the `FLearning` module. [7-Zip](https://www.7-zip.org/) must be available on `PATH` for archiving.
+**Requirements:** Julia packages `XLSX`, `SymbolicUtils`, `Statistics`, and the `FLearning` module compiled in ./bin/FLearning.dll. [7-Zip](https://www.7-zip.org/) must be available on `PATH` for archiving.
 
 ## PySR Baseline (`PySR_test.py`)
 
